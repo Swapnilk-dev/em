@@ -2,10 +2,13 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/swap/Documents/projects/em": "__default__profile__"
+            "file:///home/swap/Documents/projects/em": "__default__profile__",
+            "file:///home/swap/Desktop/employee-management/employee-management-frontend": "__default__profile__",
+            "file:///home/swap/Desktop/employee-management": "__default__profile__"
         },
         "emptyWindows": {
-            "1717078674913": "__default__profile__"
+            "1717079896322": "__default__profile__",
+            "1717079963466": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -16,11 +19,20 @@
         "folders": [
             {
                 "folderUri": "file:///home/swap/Documents/projects/em"
+            },
+            {
+                "folderUri": "file:///home/swap/Desktop/employee-management/employee-management-frontend"
+            },
+            {
+                "folderUri": "file:///home/swap/Desktop/employee-management"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1717078674913"
+                "backupFolder": "1717079896322"
+            },
+            {
+                "backupFolder": "1717079963466"
             }
         ]
     },
@@ -67,6 +79,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/swap/Desktop/employee-management",
+                                        "path": "/home/swap/Desktop/employee-management",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/swap/Desktop/employee-management"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/swap/Desktop/employee-management/employee-management-frontend",
+                                        "path": "/home/swap/Desktop/employee-management/employee-management-frontend",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/swap/Desktop/employee-management/employee-management-frontend"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -135,13 +169,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -488,8 +515,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -686,6 +712,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -785,8 +818,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -794,8 +826,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -804,8 +835,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1125,7 +1155,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1472,6 +1503,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
