@@ -1,2 +1,2 @@
-~/.vscode-root
-~/.vscode-root/
+*.vscode/
+.vscode-root/
