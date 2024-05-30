@@ -1,0 +1,15 @@
+2024-05-30 19:48:08.239 [info] Getting Manifest... rangav.vscode-thunder-client
+2024-05-30 19:48:08.906 [info] Installing extension: rangav.vscode-thunder-client
+2024-05-30 19:48:14.415 [info] Extension signature verification result for rangav.vscode-thunder-client: Success. Duration: 2176ms.
+2024-05-30 19:48:14.757 [info] Extracted extension to file:///root/.vscode/extensions/rangav.vscode-thunder-client-2.24.8: rangav.vscode-thunder-client
+2024-05-30 19:48:14.768 [info] Renamed to /root/.vscode/extensions/rangav.vscode-thunder-client-2.24.8
+2024-05-30 19:48:14.770 [info] Extracting extension completed. rangav.vscode-thunder-client
+2024-05-30 19:48:14.836 [info] Extension installed successfully: rangav.vscode-thunder-client
+2024-05-30 19:48:14.840 [info] Marked extension as uninstalled rangav.vscode-thunder-client-2.24.7
+2024-05-30 19:48:14.982 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/snap/code/159/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
